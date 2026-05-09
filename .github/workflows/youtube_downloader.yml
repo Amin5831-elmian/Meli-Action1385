@@ -32,6 +32,9 @@ on:
         type: string
         default: 'downloads'
 
+permissions:
+  contents: write
+
 jobs:
   fetch-and-store:
     runs-on: ubuntu-latest
